@@ -13,7 +13,7 @@ void Zadacha25()
     }
     Console.WriteLine("A в степени B =: " + st);
 }
-void Zadacha26()
+void Zadacha27()
 {
         Console.WriteLine("введите число");
     int i = Convert.ToInt32(Console.ReadLine());
@@ -27,7 +27,7 @@ void Zadacha26()
     }
     Console.WriteLine("сумма всех цифр в числе = " + sum);
 }
-void Zadacha27()
+void Zadacha29()
 {
     Random rand = new Random();
     int[] array = new int[8];
@@ -45,5 +45,5 @@ void Zadacha27()
     Console.WriteLine();
 }
 //Zadacha25();
-//Zadacha26();
-Zadacha27();
+//Zadacha27();
+Zadacha29();
