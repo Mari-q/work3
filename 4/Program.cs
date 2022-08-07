@@ -27,24 +27,22 @@ void Zadacha26()
     }
     Console.WriteLine("сумма всех цифр в числе = " + sum);
 }
-void Zadacha27
+void Zadacha27()
 {
-    // Не очень понял, что значит "Вывод отдельным методом" ну ыот, что получилось)
+    Random rand = new Random();
+    int[] array = new int[8];
 
-    int[] numbers = new int[8];
-    Console.Write("[");
-
-    for (int i = 0; i < numbers.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        numbers [i] = new Random().Next(0, 11);
-        Console.Write(" " + Method (i) + " ");
+        array[i] = rand.Next(0, 8);
     }
-    Console.Write("]");
 
-    int Method (int a)
+    for (int i = 0; i < array.Length; i++)
     {
-        return numbers[a];
+        Console.Write(array[i] + " ");
     }
+
+    Console.WriteLine();
 }
 //Zadacha25();
 //Zadacha26();
